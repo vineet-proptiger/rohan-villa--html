@@ -11,7 +11,7 @@
     <!-- Google Tag Manager & DataLayer Init -->
     <script id="gtag-init">
       window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({ 'city': window.CITY_DISPLAY || 'Gandhinagar' });
+      window.dataLayer.push({ 'city': window.CITY_DISPLAY || 'Bangalore' });
       function gtag() {
         dataLayer.push(arguments);
       }
@@ -304,38 +304,27 @@
               id="penthouse-stage"
               class="penthouse-viewport relative w-full max-w-[560px] lg:max-w-[570px] h-[340px] xs:h-[390px] sm:h-[460px] lg:h-[580px] xl:h-[600px] mx-auto overflow-hidden select-none cursor-grab active:cursor-grabbing group"
             >
-              <!-- Hero carousel temporarily disabled
-              Horizontal Slider Track (200% width, 2 items of 50% each)
               <div
                 id="hero-slider-track"
                 class="w-[200%] h-full flex transition-transform duration-700 ease-out"
                 style="transform: translateX(0%);"
               >
-                Slide 1: Master Elevation
                 <div class="w-1/2 h-full relative shrink-0 overflow-hidden">
                   <img
                     src="images/hero/banner1.webp"
-                    alt="Siban Gift City Master Elevation"
+                    alt="Rohan Villaments Hennur Road Elevation"
                     class="w-full h-full object-cover object-center pointer-events-none"
                   />
                 </div>
 
-                Slide 2: Biophilic Sky Deck
                 <div class="w-1/2 h-full relative shrink-0 overflow-hidden">
                   <img
                     src="images/hero/banner2.webp"
-                    alt="Siban Gift City Luxury View"
+                    alt="Rohan Villaments Hennur Road Luxury View"
                     class="w-full h-full object-cover object-center pointer-events-none"
                   />
                 </div>
-              </div> -->
-
-              <!-- Static hero image -->
-              <img
-                src="images/hero/banner1.webp"
-                alt="Rohan Villaments Hennur"
-                class="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
-              />
+              </div>
 
               <!-- Top Vignette Scrim -->
               <div class="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-black/65 via-black/25 to-transparent pointer-events-none z-10"></div>
@@ -344,11 +333,10 @@
               <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/70 via-black/20 to-transparent pointer-events-none z-10"></div>
 
 
-              <!-- Bottom Indicator Dots temporarily disabled
               <div class="absolute bottom-4 inset-x-0 z-20 flex items-center justify-center gap-2 pointer-events-none">
                 <span id="hero-dot-0" class="w-7 h-1.5 rounded-full transition-all duration-300 bg-[#DFBA73] shadow-md"></span>
                 <span id="hero-dot-1" class="w-2 h-1.5 rounded-full transition-all duration-300 bg-white/40 shadow-md"></span>
-              </div> -->
+              </div>
 
             </div>
 
@@ -487,7 +475,7 @@
         </div>
 
         <!-- Main Content Grid -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
           
           <!-- Left: Architectural Visual -->
           <div class="lg:col-span-5 relative flex justify-end items-center" data-aos="fade-right">
@@ -503,7 +491,7 @@
           <!-- Right: Editorial Narrative -->
           <div class="lg:col-span-7 flex flex-col justify-start" data-aos="fade-left">
             <div class="text-neutral-600 text-sm sm:text-[15px] leading-relaxed mb-6">
-              <div id="overviewCopy" class="relative" style="height: calc(7lh + 24px); overflow: hidden;">
+              <div style="max-height: min(460px, calc(100vw - 2rem)); overflow: hidden;">
                 <p class="m-0 mb-3 text-justify sm:text-left">
                   Rohan Villaments Hennur Road is a new luxurious Villaments project developed by Rohan Builders. The project is located in the heart of Hennur Road, North Bangalore.
                 </p>
@@ -516,24 +504,20 @@
                 <p class="m-0 text-justify sm:text-left">
                   Rohan Villaments Hennur Road is located in Hennur Road, North Bangalore that enjoys excellent connectivity to key areas like Manyata Tech Park, Kempegowda International Airport and Outer Ring Road. The project has easy access to major IT hubs, schools, hospitals, shopping malls and entertainment hubs.
                 </p>
-                <button id="overviewReadMore" type="button" aria-expanded="false" aria-controls="overviewCopy" class="absolute bottom-0 right-0 inline-flex items-center gap-2 bg-white pl-2 text-sm sm:text-[15px] font-bold leading-relaxed text-neutral-900">
-                <span>Read More</span>
-                <i class="fa-solid fa-chevron-down text-[12px] transition-transform" aria-hidden="true"></i>
-                </button>
               </div>
             </div>
 
             <!-- Features Badges Grid (Structure, Units & Configuration) -->
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6 p-4 rounded-2xl bg-white border border-neutral-200/80 shadow-xs divide-y sm:divide-y-0 sm:divide-x divide-neutral-200">
-              <div class="pb-2 sm:pb-0 sm:pr-3 text-center sm:text-left">
+              <div class="pb-2 sm:pb-0 sm:pr-3 text-left">
                 <span class="text-base sm:text-lg font-black text-[#111827] block">20+</span>
                 <span class="text-xs text-neutral-600 font-medium block mt-0.5">MODERN AMENITIES</span>
               </div>
-              <div class="py-2 sm:py-0 sm:px-3 text-center sm:text-left">
+              <div class="py-2 sm:py-0 sm:px-3 text-left">
                 <span class="text-base sm:text-lg font-black text-[#111827] block">4 BHK</span>
                 <span class="text-xs text-neutral-600 font-medium block mt-0.5">LUXURIOUS VILLAMENTS</span>
               </div>
-              <div class="pt-2 sm:pt-0 sm:pl-3 text-center sm:text-left">
+              <div class="pt-2 sm:pt-0 sm:pl-3 text-left">
                 <span class="text-base sm:text-lg font-black text-[#111827] block">Configuration</span>
                 <span class="text-xs text-neutral-600 font-medium block mt-0.5">HENNUR ROAD, NORTH BANGALORE</span>
               </div>
@@ -852,215 +836,7 @@
             <div class="flex flex-col gap-3.5 lg:hidden"><div><span class="inline-block px-2.5 py-0.5 rounded text-[10.5px] font-bold uppercase tracking-wider bg-[#f1f5f9] text-[#1e293b]">4 BHK • VILLAMENTS</span><h3 class="text-[#0f172a] font-bold text-[17px] sm:text-[19px] tracking-tight m-0 mt-1.5">4 BHK Luxury Villaments</h3></div><div class="flex items-center gap-3.5 p-3 rounded-xl bg-[#f8fafc] border border-gray-200/80"><div class="flex-1 min-w-0"><span class="text-[10px] font-semibold uppercase tracking-wider text-gray-400 block">Starting Price</span><strong class="text-[19px] sm:text-[20px] font-black tracking-tight block text-black leading-tight">₹4.5 Cr* Onwards</strong><span class="text-[11px] font-semibold text-gray-700 block mt-0.5">Area: <strong class="text-gray-900 font-bold">On Request</strong></span></div></div><button type="button" onclick="openLeadModal('ENQUIRE: 4 BHK VILLAMENTS PRICE SHEET')" class="w-full py-3.5 px-4 rounded-xl font-bold text-xs sm:text-[13.5px] transition-all duration-300 shadow-md cursor-pointer flex items-center justify-center gap-2 bg-black hover:bg-neutral-800 text-white"><i class="fa-solid fa-file-invoice text-sm"></i><span>Get Full Price Sheet</span></button></div>
           </div>
 
-          <!-- Strip 1: 2 BHK Apartments -->
-          <div class="hidden bg-white rounded-xl sm:rounded-2xl p-5 sm:p-6 lg:p-7 border border-neutral-200/90 hover:border-black transition-all duration-300 shadow-[0_8px_25px_rgba(0,0,0,0.05)] hover:shadow-[0_16px_35px_rgba(0,0,0,0.1)] relative overflow-hidden group" data-aos="fade-up">
-            <div class="absolute top-0 left-0 right-0 h-1.5 bg-black"></div>
-
-            <!-- Desktop View -->
-            <div class="hidden lg:flex items-center justify-between gap-6 xl:gap-8">
-              <!-- Left: Floor Plan -->
-              <div onclick="openLeadModal('UNLOCK FLOOR PLAN: 2 BHK APARTMENTS')" class="relative w-44 xl:w-48 h-36 rounded-xl bg-[#f8fafc] border border-gray-200/90 p-2.5 flex items-center justify-center shrink-0 cursor-pointer overflow-hidden group/plan shadow-xs">
-                <img src="images/masterplan/floor-plan.webp" alt="Siban Gift City 2 BHK Apartments Floor Plan" class="w-full h-full object-contain filter blur-[3.5px] scale-105 transition-all duration-500 group-hover/plan:blur-[2px]" />
-                <div class="absolute top-2 left-2 px-2 py-0.5 rounded bg-[#1f2937] text-[9.5px] font-bold text-white tracking-wider uppercase shadow-xs">2 BHK PLAN</div>
-                <div class="absolute inset-0 bg-black/20 flex flex-col items-center justify-center p-1 group-hover/plan:bg-black/35 transition-colors">
-                  <div class="px-3.5 py-1.5 rounded-lg bg-black/90 border border-white/15 text-white text-[11px] font-bold flex items-center gap-1.5 shadow-md">
-                    <i class="fa-solid fa-lock text-[#DFBA73] text-[10px]"></i>
-                    <span>Unlock Plan</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Middle: Details -->
-              <div class="flex-1 flex flex-col justify-between">
-                <div class="flex flex-wrap items-center gap-2 mb-2">
-                  <span class="px-2.5 py-0.5 rounded text-[11px] font-bold uppercase tracking-wider bg-[#f1f5f9] text-[#1e293b]">
-                    2 BHK • APARTMENTS
-                  </span>
-                </div>
-                <h3 class="text-[#0f172a] font-bold text-[20px] xl:text-[22px] tracking-tight m-0 mb-3">
-                  2 BHK Apartments
-                </h3>
-                <div class="flex flex-col gap-2 text-xs sm:text-[13px] text-gray-700 font-medium">
-                  <div class="flex items-center gap-2.5">
-                    <i class="fa-solid fa-circle-check text-black text-[13px]"></i>
-                    <span>1, 2 &amp; 3 BHK Apartment Options</span>
-                  </div>
-                  <div class="flex items-center gap-2.5">
-                    <i class="fa-solid fa-circle-check text-black text-[13px]"></i>
-                    <span>Located in Gift City, Gandhinagar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Right: Price & CTA -->
-              <div class="pl-6 xl:pl-8 border-l border-gray-200/80 flex flex-col items-end justify-center shrink-0 min-w-[240px]">
-                <div class="text-right">
-                  <span class="text-[11px] font-semibold uppercase tracking-wider text-gray-400 block">PRICE</span>
-                  <strong class="text-[26px] xl:text-[29px] font-black tracking-tight block text-black leading-tight mt-0.5">Price on Request</strong>
-                  <span class="text-xs font-semibold text-gray-700 block mt-1">
-                    Super Built-up Area: <strong class="text-gray-900 font-bold">On Request</strong>
-                  </span>
-                </div>
-                <button
-                  type="button"
-                  onclick="openLeadModal('ENQUIRE: 2 BHK APARTMENTS PRICE SHEET')"
-                  class="mt-4 w-full px-5 py-3 rounded-xl font-bold text-xs sm:text-[13.5px] transition-all duration-300 shadow-md hover:shadow-lg active:scale-[0.98] cursor-pointer flex items-center justify-center gap-2 whitespace-nowrap bg-black hover:bg-neutral-800 text-white"
-                >
-                  <i class="fa-solid fa-file-invoice text-sm"></i>
-                  <span>Get Full Price Sheet</span>
-                </button>
-              </div>
-            </div>
-
-            <!-- Mobile View -->
-            <div class="flex flex-col gap-3.5 lg:hidden">
-              <div>
-                <span class="inline-block px-2.5 py-0.5 rounded text-[10.5px] font-bold uppercase tracking-wider bg-[#f1f5f9] text-[#1e293b]">2 BHK • APARTMENTS</span>
-                <h3 class="text-[#0f172a] font-bold text-[17px] sm:text-[19px] tracking-tight m-0 mt-1.5">2 BHK Apartments</h3>
-              </div>
-              <div class="flex items-center gap-3.5 p-3 rounded-xl bg-[#f8fafc] border border-gray-200/80">
-                <div onclick="openLeadModal('UNLOCK FLOOR PLAN: 2 BHK APARTMENTS')" class="relative w-28 h-24 rounded-lg bg-white border border-gray-200/90 p-1 flex items-center justify-center shrink-0 cursor-pointer overflow-hidden shadow-xs">
-                  <img src="images/masterplan/floor-plan.webp" alt="Siban Gift City 2 BHK Apartments Floor Plan" class="w-full h-full object-contain filter blur-[3px]" />
-                  <div class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-[#1f2937] text-[8px] font-bold text-white uppercase">
-                    2 BHK PLAN
-                  </div>
-                  <div class="absolute inset-0 bg-black/25 flex items-center justify-center">
-                    <span class="px-2 py-1 rounded-md bg-black/90 text-white text-[9.5px] font-bold flex items-center gap-1">
-                      <i class="fa-solid fa-lock text-[#DFBA73] text-[9px]"></i> Unlock
-                    </span>
-                  </div>
-                </div>
-                <div class="flex-1 min-w-0">
-                  <span class="text-[10px] font-semibold uppercase tracking-wider text-gray-400 block">PRICE</span>
-                  <strong class="text-[19px] sm:text-[20px] font-black tracking-tight block text-black leading-tight">Price on Request</strong>
-                  <span class="text-[11px] font-semibold text-gray-700 block mt-0.5">Area: <strong class="text-gray-900 font-bold">On Request</strong></span>
-                </div>
-              </div>
-              <div class="space-y-2 pt-1 text-xs text-gray-700 font-medium">
-                <div class="flex items-center gap-2">
-                  <i class="fa-solid fa-circle-check text-black text-[12px]"></i> <span>1, 2 &amp; 3 BHK Apartment Options</span>
-                </div>
-                <div class="flex items-center gap-2">
-                  <i class="fa-solid fa-circle-check text-black text-[12px]"></i> <span>Located in Gift City, Gandhinagar</span>
-                </div>
-              </div>
-              <button
-                type="button"
-                onclick="openLeadModal('ENQUIRE: 2 BHK APARTMENTS PRICE SHEET')"
-                class="w-full py-3.5 px-4 rounded-xl font-bold text-xs sm:text-[13.5px] transition-all duration-300 shadow-md cursor-pointer flex items-center justify-center gap-2 bg-black hover:bg-neutral-800 text-white"
-              >
-                <i class="fa-solid fa-file-invoice text-sm"></i>
-                <span>Get Full Price Sheet</span>
-              </button>
-            </div>
-          </div>
-
-          <!-- Strip 2: 3 BHK Apartments -->
-          <div class="hidden bg-white rounded-xl sm:rounded-2xl p-5 sm:p-6 lg:p-7 border border-neutral-200/90 hover:border-black transition-all duration-300 shadow-[0_8px_25px_rgba(0,0,0,0.05)] hover:shadow-[0_16px_35px_rgba(0,0,0,0.1)] relative overflow-hidden group" data-aos="fade-up">
-            <div class="absolute top-0 left-0 right-0 h-1.5 bg-[#DFBA73]"></div>
-
-            <!-- Desktop View -->
-            <div class="hidden lg:flex items-center justify-between gap-6 xl:gap-8">
-              <!-- Left: Floor Plan -->
-              <div onclick="openLeadModal('UNLOCK FLOOR PLAN: 3 BHK APARTMENTS')" class="relative w-44 xl:w-48 h-36 rounded-xl bg-[#f8fafc] border border-gray-200/90 p-2.5 flex items-center justify-center shrink-0 cursor-pointer overflow-hidden group/plan shadow-xs">
-                <img src="images/masterplan/floor-plan.webp" alt="Rohan Villaments Hennur Road 4 BHK Floor Plan" class="w-full h-full object-contain filter blur-[3.5px] scale-105 transition-all duration-500 group-hover/plan:blur-[2px]" />
-                <div class="absolute top-2 left-2 px-2 py-0.5 rounded bg-[#1f2937] text-[9.5px] font-bold text-white tracking-wider uppercase shadow-xs">3 BHK PLAN</div>
-                <div class="absolute inset-0 bg-black/20 flex flex-col items-center justify-center p-1 group-hover/plan:bg-black/35 transition-colors">
-                  <div class="px-3.5 py-1.5 rounded-lg bg-black/90 border border-white/15 text-white text-[11px] font-bold flex items-center gap-1.5 shadow-md">
-                    <i class="fa-solid fa-lock text-[#DFBA73] text-[10px]"></i>
-                    <span>Unlock Plan</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Middle: Details -->
-              <div class="flex-1 flex flex-col justify-between">
-                <div class="flex flex-wrap items-center gap-2 mb-2">
-                  <span class="px-2.5 py-0.5 rounded text-[11px] font-bold uppercase tracking-wider bg-[#fef3c7] text-[#92400e]">
-                    3 BHK • APARTMENTS
-                  </span>
-                  <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-black text-white">
-                    PREMIUM RESIDENCES
-                  </span>
-                </div>
-                <h3 class="text-[#0f172a] font-bold text-[20px] xl:text-[22px] tracking-tight m-0 mb-3">
-                  4 BHK Luxury Villaments
-                </h3>
-                <div class="flex flex-col gap-2 text-xs sm:text-[13px] text-gray-700 font-medium">
-                  <div class="flex items-center gap-2.5">
-                    <i class="fa-solid fa-circle-check text-black text-[13px]"></i>
-                    <span>1, 2 &amp; 3 BHK Apartment Options</span>
-                  </div>
-                  <div class="flex items-center gap-2.5">
-                    <i class="fa-solid fa-circle-check text-black text-[13px]"></i>
-                    <span>Located in Gift City, Gandhinagar</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Right: Price & CTA -->
-              <div class="pl-6 xl:pl-8 border-l border-gray-200/80 flex flex-col items-end justify-center shrink-0 min-w-[240px]">
-                <div class="text-right">
-                  <span class="text-[11px] font-semibold uppercase tracking-wider text-gray-400 block">PRICE</span>
-                  <strong class="text-[26px] xl:text-[29px] font-black tracking-tight block text-black leading-tight mt-0.5">Price on Request</strong>
-                  <span class="text-xs font-semibold text-gray-700 block mt-1">
-                    Super Built-up Area: <strong class="text-gray-900 font-bold">On Request</strong>
-                  </span>
-                </div>
-                <button
-                  type="button"
-                  onclick="openLeadModal('ENQUIRE: 3 BHK APARTMENTS PRICE SHEET')"
-                  class="mt-4 w-full px-5 py-3 rounded-xl font-bold text-xs sm:text-[13.5px] transition-all duration-300 shadow-md hover:shadow-lg active:scale-[0.98] cursor-pointer flex items-center justify-center gap-2 whitespace-nowrap bg-black hover:bg-neutral-800 text-white"
-                >
-                  <i class="fa-solid fa-file-invoice text-sm"></i>
-                  <span>Get Full Price Sheet</span>
-                </button>
-              </div>
-            </div>
-
-            <!-- Mobile View -->
-            <div class="flex flex-col gap-3.5 lg:hidden">
-              <div>
-                <span class="inline-block px-2.5 py-0.5 rounded text-[10.5px] font-bold uppercase tracking-wider bg-[#fef3c7] text-[#92400e]">3 BHK • APARTMENTS</span>
-                <h3 class="text-[#0f172a] font-bold text-[17px] sm:text-[19px] tracking-tight m-0 mt-1.5">3 BHK Apartments</h3>
-              </div>
-              <div class="flex items-center gap-3.5 p-3 rounded-xl bg-[#f8fafc] border border-gray-200/80">
-                <div onclick="openLeadModal('UNLOCK FLOOR PLAN: 3 BHK APARTMENTS')" class="relative w-28 h-24 rounded-lg bg-white border border-gray-200/90 p-1 flex items-center justify-center shrink-0 cursor-pointer overflow-hidden shadow-xs">
-                  <img src="images/masterplan/floor-plan.webp" alt="Siban Gift City 3 BHK Apartments Floor Plan" class="w-full h-full object-contain filter blur-[3px]" />
-                  <div class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-[#1f2937] text-[8px] font-bold text-white uppercase">
-                    3 BHK PLAN
-                  </div>
-                  <div class="absolute inset-0 bg-black/25 flex items-center justify-center">
-                    <span class="px-2 py-1 rounded-md bg-black/90 text-white text-[9.5px] font-bold flex items-center gap-1">
-                      <i class="fa-solid fa-lock text-[#DFBA73] text-[9px]"></i> Unlock
-                    </span>
-                  </div>
-                </div>
-                <div class="flex-1 min-w-0">
-                  <span class="text-[10px] font-semibold uppercase tracking-wider text-gray-400 block">PRICE</span>
-                  <strong class="text-[19px] sm:text-[20px] font-black tracking-tight block text-black leading-tight">Price on Request</strong>
-                  <span class="text-[11px] font-semibold text-gray-700 block mt-0.5">Area: <strong class="text-gray-900 font-bold">On Request</strong></span>
-                </div>
-              </div>
-              <div class="space-y-2 pt-1 text-xs text-gray-700 font-medium">
-                <div class="flex items-center gap-2">
-                  <i class="fa-solid fa-circle-check text-black text-[12px]"></i> <span>1, 2 &amp; 3 BHK Apartment Options</span>
-                </div>
-                <div class="flex items-center gap-2">
-                  <i class="fa-solid fa-circle-check text-black text-[12px]"></i> <span>Located in Gift City, Gandhinagar</span>
-                </div>
-              </div>
-              <button
-                type="button"
-                onclick="openLeadModal('ENQUIRE: 3 BHK APARTMENTS PRICE SHEET')"
-                class="w-full py-3.5 px-4 rounded-xl font-bold text-xs sm:text-[13.5px] transition-all duration-300 shadow-md cursor-pointer flex items-center justify-center gap-2 bg-black hover:bg-neutral-800 text-white"
-              >
-                <i class="fa-solid fa-file-invoice text-sm"></i>
-                <span>Get Full Price Sheet</span>
-              </button>
-            </div>
-          </div>
-
+          
         </div>
 
       </div>
@@ -1465,7 +1241,7 @@
           </div>
         </div>
 
-        <!-- TAB CONTENT: FLOOR PLANS (Siban Gift City apartment configurations) -->
+        <!-- TAB CONTENT: FLOOR PLANS (Rohan Villaments Hennur Road configurations) -->
         <div id="tab-content-floor" class="grid-cols-1 gap-6 max-w-[560px] mx-auto hidden" data-aos="fade-up">
           
           <!-- 4 BHK Villaments Floor Plan -->
@@ -1596,11 +1372,11 @@
               >
                 <!-- Hidden inputs -->
                 <input type="hidden" name="form_name" value="Developer Section Form" />
-                <input type="hidden" name="projectId" value="3522401" />
-                <input type="hidden" name="projectName" value="Siban Gift City" />
-                <input type="hidden" name="sheet_name" value="gandhinagar" />
+                <input type="hidden" name="projectId" value="3447109" />
+                <input type="hidden" name="projectName" value="Rohan Villaments Hennur Road" />
+                <input type="hidden" name="sheet_name" value="bangalore" />
                 <input type="hidden" name="secret" value="6c7f9ad8b2a1e0f4d5a8c0b9f6e2a4d190" />
-                <input type="hidden" name="city" value="Gandhinagar" />
+                <input type="hidden" name="city" value="Bangalore" />
                 <input type="hidden" name="utm_source" value="" />
                 <input type="hidden" name="utm_medium" value="" />
                 <input type="hidden" name="utm_campaign" value="" />
@@ -1791,11 +1567,11 @@
         >
           <!-- Hidden inputs -->
           <input type="hidden" name="form_name" value="Popup Modal" />
-          <input type="hidden" name="projectId" value="3522401" />
-          <input type="hidden" name="projectName" value="Siban Gift City" />
-          <input type="hidden" name="sheet_name" value="gandhinagar" />
+          <input type="hidden" name="projectId" value="3447109" />
+          <input type="hidden" name="projectName" value="Rohan Villaments Hennur Road" />
+          <input type="hidden" name="sheet_name" value="bangalore" />
           <input type="hidden" name="secret" value="6c7f9ad8b2a1e0f4d5a8c0b9f6e2a4d190" />
-          <input type="hidden" name="city" value="Gandhinagar" />
+          <input type="hidden" name="city" value="Bangalore" />
           <input type="hidden" name="utm_source" value="" />
           <input type="hidden" name="utm_medium" value="" />
           <input type="hidden" name="utm_campaign" value="" />
@@ -1951,7 +1727,7 @@
       <!-- WhatsApp Button -->
       <a
         id="mobile-whatsapp"
-        href="https://wa.me/919560582493?text=Hi%20I%20am%20interested%20in%20Siban%20Gift%20City"
+        href="https://wa.me/919560582493?text=Hi%20I%20am%20interested%20in%20Rohan%20Villaments%20Hennur%20Road"
         target="_blank"
         rel="noopener noreferrer"
         class="flex-1 flex flex-col items-center justify-center py-2.5 px-1"
@@ -1997,26 +1773,6 @@
     </div>
 
     <!-- Scripts -->
-    <script>
-      (() => {
-        const copy = document.getElementById("overviewCopy");
-        const button = document.getElementById("overviewReadMore");
-        if (!copy || !button) return;
-        button.addEventListener("click", () => {
-          const expanded = button.getAttribute("aria-expanded") === "true";
-          button.setAttribute("aria-expanded", String(!expanded));
-          copy.style.height = expanded ? "auto" : "calc(7lh + 24px)";
-          button.classList.toggle("absolute", !expanded);
-          button.classList.toggle("bottom-0", !expanded);
-          button.classList.toggle("right-0", !expanded);
-          button.classList.toggle("bg-white", !expanded);
-          button.classList.toggle("pl-2", !expanded);
-          button.classList.toggle("mt-3", expanded);
-          button.querySelector("span").textContent = expanded ? "Read More" : "Read Less";
-          button.querySelector("i").style.transform = expanded ? "rotate(0deg)" : "rotate(180deg)";
-        });
-      })();
-    </script>
     <script src="form-integration.js?v=14.0"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js?v=7.0"></script>

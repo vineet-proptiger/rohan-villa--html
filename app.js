@@ -1,5 +1,5 @@
 /* ===============================================================
-   SIBAN GIFT CITY — JAVASCRIPT UI ENGINE
+   ROHAN VILLAMENTS HENNUR ROAD — JAVASCRIPT UI ENGINE
 =============================================================== */
 
 // ── 1. Hero Concept 3: Horizontal Scroll/Swipe & Auto-Slide Engine ──
